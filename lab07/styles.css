@@ -2,12 +2,13 @@
 nav {background-color: #F5DE9F};
 nav a {color: #0000FF;}
 nav a:hover {background-color: #DE23B5;}
+head{color:#00000}
 body{
     color: #110303;
-    background-color: #
-
+    background-color: #D2F2F7
 }
+
 nav{
     padding: 10px;
     margin: 30px;
-}
+} 
