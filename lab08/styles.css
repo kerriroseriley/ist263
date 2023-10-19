@@ -6,12 +6,17 @@ nav a:hover {background-color: #DE21B5;}
 head{color:#000000;}
 body{
     color: #110303;
-    background-color: #FFFFFF
+    background-color: #add8e6
 }
 nav{
     padding: 10px;
     margin: 30px;
 } 
 .div1, .div2 {margin: 10px;}
-.div1 {flex: 1; order 1; background-color: ; border-radius: 1em;}
-.div2 {flex: 1; order 2; background-color: ; border-radius: 1em;}
+.div1 {display: flex; flex: 1; background-color: #ffffff; border-radius: 1em; margin-bottom: 3em}
+.div2 {display: flex; flex: 2; background-color: #ffffff; border-radius: 1em;}
+
+.row1 {flex: 2;}
+.row2 {flex: 13;}
+.row3 {flex: 2;}
+.row4 {flex: 7;}
