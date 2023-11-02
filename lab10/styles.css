@@ -26,3 +26,4 @@ h1 {display: flex; justify-content: center;}
 .skills {display: flex; width: 50%; justify-content: space-between; flex: 3;}
 .flex {background-color: #0066b2; color: #ffffff; border-radius: 1em; flex: 1; padding: 10px; margin: 30px;}
 h1, p, div {padding: 2.5px; margin: 5px;}
+.image {max-width: 100%}
