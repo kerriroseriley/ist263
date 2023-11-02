@@ -27,3 +27,13 @@ h1 {display: flex; justify-content: center;}
 .flex {background-color: #0066b2; color: #ffffff; border-radius: 1em; flex: 1; padding: 10px; margin: 30px;}
 h1, p, div {padding: 2.5px; margin: 5px;}
 .image {max-width: 100%}
+
+@media only screen and (max-width: 786px) {
+    nav a {display: block;
+        max-width: 100%;
+    }
+    nav span {display: none;}
+@media only screen and (min-width: px) {
+
+}
+nav a {padding: 2.5px; margin: 5px;} 
