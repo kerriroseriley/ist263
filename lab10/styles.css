@@ -14,7 +14,7 @@ nav{
 } 
 .div1, .div2 {margin: 10px;}
 .div1 {display: flex; flex: 1; background-color: #ffffff; border-radius: 1em; margin-bottom: 3em}
-.div2 {display: flex; flex: 2; background-color: #ffffff; border-radius: 1em;}
+.div2 {display: flex; flex: 2; background-color: #ffffff; border-radius: 1em; flex-wrap: wrap;}
 
 .row1 {flex: 2;}
 .row2 {flex: 13;}
