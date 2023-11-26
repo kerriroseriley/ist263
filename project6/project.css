@@ -1,0 +1,35 @@
+nav {display: flex;
+    justify-content: space-around;
+    background-color: #add8e6;
+    padding: 10px;
+    margin: 30px;
+}
+nav a {padding: 2.5px; margin: 5px;}
+
+.first {width: 30%;
+    margin: 0 auto;
+    padding: 15px;
+}
+.second {width: 70%;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+body {background-color: #ffffff;}
+div {margin: 15px;}
+
+@media only screen and (max-width: 786px) {
+    nav a {display: block;
+        max-width: 100%;
+    }
+    nav span {display: none;}
+@media only screen and (min-width: px) {
+}
+
+
+.firstmain {display: flex;}
+.secondmain {display: flex;}
+.one {display: flex; width: 50%; justify-content: space-between; flex: 2; order: 1;}
+.nexttoone {display: flex; flex: 2; order: 2;}
+.two {display: flex; width: 50%; justify-content: space-between; flex: 2; order: 1;}
+.nexttotwo {display: flex; flex: 2; order: 2;}
