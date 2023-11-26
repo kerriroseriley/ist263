@@ -15,8 +15,8 @@ nav a {padding: 2.5px; margin: 5px;}
     padding: 8px;
 }
 
-body {background-color: #ffffff;}
-div {margin: 15px;}
+body {background-color: #ffffff; padding: 15px;}
+div {padding: 10px; margin: 30px;}
 
 @media only screen and (max-width: 786px) {
     nav a {display: block;
