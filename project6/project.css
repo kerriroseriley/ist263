@@ -25,11 +25,3 @@ div {margin: 15px;}
     nav span {display: none;}
 @media only screen and (min-width: px) {
 }
-
-
-.firstmain {display: flex;}
-.secondmain {display: flex;}
-.one {display: flex; width: 50%; justify-content: space-between; flex: 2; order: 1;}
-.nexttoone {display: flex; flex: 2; order: 2;}
-.two {display: flex; width: 50%; justify-content: space-between; flex: 2; order: 1;}
-.nexttotwo {display: flex; flex: 2; order: 2;}
