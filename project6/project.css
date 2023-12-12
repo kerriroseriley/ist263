@@ -37,4 +37,11 @@ nav ul {
     nav li {margin-right: 0; margin-bottom: 5px;}
     .large {display: none;}
     .small {display: block;}
+    .hi {flex-wrap: wrap;}
+    .bye {flex-wrap: wrap;}
+    .firstmain {flex-wrap: wrap;}
+    .secondmain {flex-wrap: wrap;}
+    .top {flex-wrap: wrap;}
+    .middle {flex-wrap: wrap;}
+    .bottom {flex-wrap: wrap;}
 }
