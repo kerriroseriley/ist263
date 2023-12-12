@@ -1,5 +1,4 @@
-nav {display: flex;
-    justify-content: space-around;
+nav {
     background-color: #bcdff3;
     padding: 10px;
     margin: 30px;
@@ -19,11 +18,23 @@ footer {margin: 30px; padding: 10px;}
 body {background-color: #ffffff; padding: 15px;}
 div {padding: 10px; margin: 30px;}
 
-@media only screen and (max-width: 786px) {
-    nav a {display: block;
-        max-width: 100%;
-    }
-    nav span {display: none;}
-@media only screen and (min-width: px) {
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
 }
-body {font-family: 'Roboto', sans-serif;}
+.small {display: none;}
+
+@media only screen and (max-width: 800px) {
+    nav a {
+        display: block;
+        text-align: left;
+        width: 100%;
+    }
+    nav ul {flex-direction: column;}
+    nav li {margin-right: 0; margin-bottom: 5px;}
+    .large {display: none;}
+    .small {display: block;}
+}
