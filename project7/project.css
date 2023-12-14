@@ -39,9 +39,9 @@ skip {
     padding: 5px;
     border: 1px solid #000000;
     text-decoration: none;
-    position: absolute; /* positions an element relative to the top left corner of the viewport */
+    position: absolute; 
     top: 10px;
-    left: -999px; /* convention to show this is going off the screen, push off the left side */
+    left: -999px; 
 }
 
 table {display: flex; flex-direction: column; align-items: center;}
