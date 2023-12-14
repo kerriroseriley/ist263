@@ -34,6 +34,15 @@ nav ul {
 .nexttoone {flex: 2; order: 2;}
 .nexttotwo {flex: 2; order: 1;}
 
+skip {
+    background-color: #ffbf00;
+    padding: 5px;
+    border: 1px solid #000000;
+    text-decoration: none;
+    position: absolute; /* positions an element relative to the top left corner of the viewport */
+    top: 10px;
+    left: -999px; /* convention to show this is going off the screen, push off the left side */
+}
 
 @media only screen and (max-width: 800px) {
     nav a {
