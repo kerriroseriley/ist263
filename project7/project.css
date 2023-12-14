@@ -44,6 +44,8 @@ skip {
     left: -999px; /* convention to show this is going off the screen, push off the left side */
 }
 
+table {display: flex; flex-direction: column; align-items: center;}
+
 @media only screen and (max-width: 800px) {
     nav a {
         display: block;
