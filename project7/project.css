@@ -30,6 +30,7 @@ nav ul {
 .firstmain {display: flex;}
 .secondmain {display: flex;}
 .one {flex: 2; order: 1;}
+.two {flex: 2; order: 2;}
 .nexttoone {flex: 2; order: 2;}
 .nexttotwo {flex: 2; order: 1;}
 
