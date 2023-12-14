@@ -33,18 +33,19 @@ nav ul {
         text-align: left;
         width: 100%;
     }
- =
-    body {padding: 5px; margin: 5px;}
+    .diya {text-align: center;}
+    .first {text-align: center;}
+    iframe {padding: 0px; margin: 1px;}
+    body {padding: 0px; margin: 1px;}
     nav ul {flex-direction: column;}
     nav li {margin-right: 0; margin-bottom: 5px;}
     .large {display: none;}
     .small {display: block;}
     .hi {flex-wrap: wrap;}
     .bye {flex-wrap: wrap;}
-    .firstmain {flex-wrap: wrap;}
+    .firstmain {flex-wrap: wrap; align-content: center;}
     .secondmain {flex-wrap: wrap;}
     .top {flex-wrap: wrap;}
     .middle {flex-wrap: wrap;}
     .bottom {flex-wrap: wrap;}
-    iframe {}
 }
