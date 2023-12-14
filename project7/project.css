@@ -33,10 +33,10 @@ nav ul {
         text-align: left;
         width: 100%;
     }
+    body {margin: 2px; padding: 2px;}
     .diya {text-align: center;}
     .first {text-align: center;}
     iframe {padding: 0px; margin: 1px;}
-    body {padding: 0px; margin: 1px;}
     nav ul {flex-direction: column;}
     nav li {margin-right: 0; margin-bottom: 5px;}
     .large {display: none;}
