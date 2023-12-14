@@ -27,6 +27,13 @@ nav ul {
 }
 .small {display: none;}
 
+.firstmain {display: flex;}
+.secondmain {display: flex;}
+.one {flex: 2; order: 1;}
+.nexttoone {flex: 2; order: 2;}
+.nexttotwo {flex: 2; order: 1;}
+
+
 @media only screen and (max-width: 800px) {
     nav a {
         display: block;
@@ -36,16 +43,19 @@ nav ul {
     body {margin: 2px; padding: 2px;}
     .diya {text-align: center;}
     .first {text-align: center;}
-    iframe {padding: 0px; margin: 1px;}
+    iframe {max-width: 100%; height: auto;}
     nav ul {flex-direction: column;}
     nav li {margin-right: 0; margin-bottom: 5px;}
     .large {display: none;}
     .small {display: block;}
-    .hi {flex-wrap: wrap;}
+    .hi {display: flex; flex-direction: column; align-items: center;}
     .bye {flex-wrap: wrap;}
-    .firstmain {flex-wrap: wrap; align-content: center;}
-    .secondmain {flex-wrap: wrap;}
-    .top {flex-wrap: wrap;}
-    .middle {flex-wrap: wrap;}
-    .bottom {flex-wrap: wrap;}
+    .top {display: flex; flex-direction: column; align-items: center;}
+    .middle {display: flex; flex-direction: column; align-items: center;}
+    .bottom {display: flex; flex-direction: column; align-items: center;}
+    .firstmain {display: flex; flex-direction: column; align-items: center;}
+    .secondmain {display: flex; flex-direction: column; align-items: center;}
+    img {max-width: 100%; height: auto;}
+    .bye {display: flex; flex-direction: column; align-items: center;}
+
 }
