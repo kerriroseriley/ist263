@@ -33,7 +33,7 @@ nav ul {
         text-align: left;
         width: 100%;
     }
-    body {padding: 5px;}
+    body {padding: 5px; margin: 5px;}
     nav ul {flex-direction: column;}
     nav li {margin-right: 0; margin-bottom: 5px;}
     .large {display: none;}
